@@ -1,5 +1,23 @@
 h1
-{color: rgb(0, 0, 255);}
-p
-{font-family: Georgia, ;}
-h2{color:  rgb(0, 0, 255);}
+{color:  hsla(263, 91%, 35%, 0.944);}
+p{font-family: Georgia, ;}
+h2{color:  hsla(263, 91%, 35%, 0.944);}
+h3{color:  hsla(263, 91%, 35%, 0.944);}
+body{ background-color: rgb(201, 219, 218);}
+
+.destino-item {
+    display: flex;             
+    align-items: flex-start;   
+    gap: 20px;                 
+    margin-top: 20px;          
+    flex-wrap: wrap;          
+}
+
+.destino-item img {
+    max-width: 400px; 
+    height: auto;      
+}
+
+.destino-item p {
+    flex: 1;           
+}
